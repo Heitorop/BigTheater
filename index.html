@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Theater</title>
 </head>
@@ -14,51 +15,93 @@
         <div class="app__wrapper">
             <div class="first_slide">
                 <div class="first_slide__wrapper">
-                    <div class="nav">
-                        <div class="nav__wrapper">
-                            <div id="hamburger-menu">
-                                <input id="menu__toggle" type="checkbox" />
-                                <label class="menu__btn" for="menu__toggle">
-                                    <span></span>
-                                </label>
-                                <ul class="menu__box">
-                                    <li><a class="menu__item" href="#">Главная</a></li>
-                                    <li><a class="menu__item" href="#">О театре</a></li>
-                                    <li><a class="menu__item" href="#">наши постановки</a></li>
-                                    <li><a class="menu__item" href="#">партнёры театра</a></li>
-                                    <li><a class="menu__item" href="#">контакты</a></li>
-                                    <div class="menu__box_img__wrapper">
-                                        <div>
-                                            <img src="./img/facebook.png" class="fb" alt="">
-                                            <img src="./img/instagram.png" class="inst" alt="">
-                                        </div>
-                                        <div>
-                                            <img src="./img/Youtube.png" class="youtube" alt="">
-                                            <img src="./img/Vk.png" class="vk" alt="">
-                                        </div>
-                                    </div>
-                                </ul>
-
+                    <div class="sidebar">
+                        <div class="sidebar__wrapper">
+                            <div class="img__wrapper">
+                                <div class="youtube1"></div>
+                                <div class="vk1"></div>
+                                <div class="facebook1"></div>
+                                <div class="inst1"></div>
                             </div>
-                            <ul>
-                                <li><a href="#" class="nav_button">Главная</a></li>
-                                <li><a href="#" class="nav_button">О театре</a></li>
-                                <li><a href="#" class="nav_button">наши постановки</a></li>
-                                <li><a href="#" class="nav_button">партнёры театра</a></li>
-                                <li><a href="#" class="nav_button">контакты</a></li>
-                            </ul>
-                            <div class="nav_number__wrapper">
-                                <p class="nav_number">+7 495 123-45-67</p>
-                                <img src="./img/Line1.png" alt="" class="line">
+                            <img src="./img/Line2.png" alt="">
+                            <p>контактная информация</p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="nav">
+                            <div class="nav__wrapper">
+                                <div id="hamburger-menu">
+                                    <input id="menu__toggle" type="checkbox" />
+                                    <label class="menu__btn" for="menu__toggle">
+                                        <span></span>
+                                    </label>
+                                    <ul class="menu__box">
+                                        <li><a class="menu__item" href="#">Главная</a></li>
+                                        <li><a class="menu__item" href="#">О театре</a></li>
+                                        <li><a class="menu__item" href="#">наши постановки</a></li>
+                                        <li><a class="menu__item" href="#">партнёры театра</a></li>
+                                        <li><a class="menu__item" href="#">контакты</a></li>
+                                        <div class="menu__box_img__wrapper">
+                                            <div>
+                                                <img src="./img/facebook.png" class="fb" alt="">
+                                                <img src="./img/instagram.png" class="inst" alt="">
+                                            </div>
+                                            <div>
+                                                <img src="./img/Youtube.png" class="youtube" alt="">
+                                                <img src="./img/Vk.png" class="vk" alt="">
+                                            </div>
+                                        </div>
+                                    </ul>
+
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="nav_button">Главная</a></li>
+                                    <li><a href="#" class="nav_button">О театре</a></li>
+                                    <li><a href="#" class="nav_button">наши постановки</a></li>
+                                    <li><a href="#" class="nav_button">партнёры театра</a></li>
+                                    <li><a href="#" class="nav_button">контакты</a></li>
+                                </ul>
+                                <div class="nav_number__wrapper">
+                                    <p class="nav_number">+7 495 123-45-67</p>
+                                    <img src="./img/Line1.png" alt="" class="line">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first_slide__bg"></div>
+                        <div class="first_slide_info__wrapper">
+                            <div class="first_slide__info">
+                                <div class="first_slide_text">
+                                    <h1>Большой театр</h1>
+                                    <p>Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах,<br>
+                                        с 1886 года — Петербургская консерватория. Первое постоянное в<br>
+                                        Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных <br>
+                                        зданий в Европе XVIII.</p>
+                                    <button class="first_slide_button">Афиша</button>
+                                </div>
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="./img/image3.png" alt=""></div>
+                                        <div class="swiper-slide"><img src="./img/image3.png"></div>
+                                    </div>
+
+
+                                    <div class="container">
+                                        <div class="swiper-button-prev-unique"><img
+                                                src="./img/Arrow1.png"><span>Пред</span>
+                                        </div>
+                                        <div class="swiper-button-next-unique"><span>След</span><img
+                                                src="./img/Arrow11.png"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="first_slide__bg"></div>
-                    <div class="sidebar"></div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 
 </body>
