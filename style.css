@@ -849,6 +849,9 @@ body {
   .sixth_slide__wrapper {
     justify-content: center;
   }
+  #app {
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 620px) {
   .second_slide {
@@ -864,8 +867,5 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-  #app {
-    overflow-x: hidden;
   }
 }
