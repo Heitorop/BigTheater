@@ -1,13 +1,16 @@
 /** @format */
 const humburger = document.getElementById("hamburger-menu");
 const checkBo = document.getElementById("menu__toggle");
+const app = document.getElementById("app");
 function check() {
   if (checkBo.checked) {
     humburger.style.left = 250 + "px";
+    app.classList.add("over");
     console.log("lol");
   } else {
     humburger.style.top = 42 + "px";
     humburger.style.left = 40 + "px";
+    app.classList.remove("over");
   }
 }
 check();
@@ -38,4 +41,19 @@ prevAr.addEventListener("click", function () {
     nextAr.classList.remove("opacity");
   }
   prevAr.classList.add("opacity");
+});
+
+var swiper3 = new Swiper(".mySecSwiper", {
+  slidesPerView: 4,
+  centeredSlides: true,
+  slideNextClass: "swiper-slide3-next",
+  slidePrevClass: "swiper-slide3-prev",
+  slideActiveClass: "swiper-slide3-active",
+});
+var swiper33 = new Swiper(".myThirdSwiper", {
+  slidesPerView: 2,
+  centeredSlides: true,
+  slideNextClass: "swiper-slide3-next",
+  slidePrevClass: "swiper-slide3-prev",
+  slideActiveClass: "swiper-slide3-active",
 });
