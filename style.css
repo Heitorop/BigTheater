@@ -155,9 +155,19 @@ body {
 .img__wrapper > a:hover svg path {
   fill: #d1a954;
 }
-.menu__box_img__wrapper > div > a svg {
-  display: inline-block;
-  margin: 20px;
+.menu__box_img__wrapper {
+  display: flex;
+  align-items: center;
+}
+.box_img__wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+.box_img__wrapper > div:first-child {
+  margin-right: 20px;
+}
+#youtube {
+  width: 35px;
 }
 
 .menu__box_img__wrapper > div > a svg path {
