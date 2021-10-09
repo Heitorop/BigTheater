@@ -198,7 +198,8 @@ body {
 .nav_number__wrapper {
   color: white;
   text-align: center;
-  padding: 50px 16px;
+  padding: 50px;
+  margin-right: 20px;
 }
 .nav_number__wrapper > img {
   height: 2px;
@@ -627,6 +628,7 @@ body {
   background-color: rgba(51, 51, 51);
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
 }
 .sixth_slide > h1 > span {
   color: goldenrod;
@@ -637,6 +639,7 @@ body {
   min-width: 360px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 .fields_wrapper {
   display: flex;
@@ -807,6 +810,9 @@ body {
   .theater_real {
     display: none;
   }
+  .sixth_slide__wrapper {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 992px) {
   .nav-info {
@@ -834,7 +840,7 @@ body {
     display: none;
   }
   .nav_number__wrapper {
-    padding-top: 50px;
+    padding: 50px 10px;
     justify-content: space-between;
   }
   #hamburger-menu {
