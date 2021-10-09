@@ -57,3 +57,42 @@ var swiper33 = new Swiper(".myThirdSwiper", {
   slidePrevClass: "swiper-slide3-prev",
   slideActiveClass: "swiper-slide3-active",
 });
+var swiper4 = new Swiper(".myFourthSwiper", {
+  slidesPerView: 1,
+  centeredSlides: true,
+  slideNextClass: "swiper-slide3-next",
+  slidePrevClass: "swiper-slide3-prev",
+  slideActiveClass: "swiper-slide3-active",
+  navigation: {
+    nextEl: ".swiper-button-next-unique",
+    prevEl: ".swiper-button-prev-unique",
+  },
+});
+var swiper5 = new Swiper(".partners", {
+  slidesPerView: 4,
+  centeredSlides: false,
+  slideNextClass: "swiper-slide3-next",
+  slidePrevClass: "swiper-slide3-prev",
+  slideActiveClass: "swiper-slide3-active",
+});
+var swiper6 = new Swiper(".partners1", {
+  slidesPerView: 3,
+  centeredSlides: false,
+  slideNextClass: "swiper-slide3-next",
+  slidePrevClass: "swiper-slide3-prev",
+  slideActiveClass: "swiper-slide3-active",
+});
+var swiper6 = new Swiper(".partners2", {
+  slidesPerView: 2,
+  centeredSlides: false,
+  slideNextClass: "swiper-slide3-next",
+  slidePrevClass: "swiper-slide3-prev",
+  slideActiveClass: "swiper-slide3-active",
+});
+var swiper6 = new Swiper(".partners3", {
+  slidesPerView: 1,
+  centeredSlides: false,
+  slideNextClass: "swiper-slide3-next",
+  slidePrevClass: "swiper-slide3-prev",
+  slideActiveClass: "swiper-slide3-active",
+});
