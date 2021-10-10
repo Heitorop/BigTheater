@@ -58,8 +58,8 @@ var swiper33 = new Swiper(".myThirdSwiper", {
   slideActiveClass: "swiper-slide3-active",
 });
 var swiper4 = new Swiper(".myFourthSwiper", {
-  slidesPerView: 1,
-  centeredSlides: true,
+  slidesPerView: 2,
+  centeredSlides: false,
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
   slideActiveClass: "swiper-slide3-active",
@@ -90,7 +90,7 @@ var swiper6 = new Swiper(".partners2", {
   slideActiveClass: "swiper-slide3-active",
 });
 var swiper6 = new Swiper(".partners3", {
-  slidesPerView: 1,
+  slidesPerView: 2,
   centeredSlides: false,
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
