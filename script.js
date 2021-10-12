@@ -45,13 +45,15 @@ prevAr.addEventListener("click", function () {
 
 var swiper3 = new Swiper(".mySecSwiper", {
   slidesPerView: 4,
-  centeredSlides: true,
+  loop: true,
+  centeredSlides: false,
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
   slideActiveClass: "swiper-slide3-active",
 });
 var swiper33 = new Swiper(".myThirdSwiper", {
   slidesPerView: 2,
+  initialSlide: 0,
   centeredSlides: true,
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
@@ -63,10 +65,6 @@ var swiper4 = new Swiper(".myFourthSwiper", {
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
   slideActiveClass: "swiper-slide3-active",
-  navigation: {
-    nextEl: ".swiper-button-next-unique",
-    prevEl: ".swiper-button-prev-unique",
-  },
 });
 var swiper5 = new Swiper(".partners", {
   slidesPerView: 4,
