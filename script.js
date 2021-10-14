@@ -46,6 +46,7 @@ prevAr.addEventListener("click", function () {
 var swiper3 = new Swiper(".mySecSwiper", {
   slidesPerView: 4,
   loop: true,
+  initialSlide: 1,
   centeredSlides: false,
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
@@ -53,7 +54,8 @@ var swiper3 = new Swiper(".mySecSwiper", {
 });
 var swiper33 = new Swiper(".myThirdSwiper", {
   slidesPerView: 2,
-  initialSlide: 0,
+  loop: true,
+  initialSlide: 1,
   centeredSlides: true,
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
@@ -61,7 +63,8 @@ var swiper33 = new Swiper(".myThirdSwiper", {
 });
 var swiper4 = new Swiper(".myFourthSwiper", {
   slidesPerView: 2,
-  centeredSlides: false,
+  loop: true,
+  initialSlide: 0,
   slideNextClass: "swiper-slide3-next",
   slidePrevClass: "swiper-slide3-prev",
   slideActiveClass: "swiper-slide3-active",
